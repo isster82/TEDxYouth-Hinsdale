@@ -1,0 +1,94 @@
+:root
+{
+	--ted-red: rgb(230, 43, 30)
+}
+
+body
+{
+	/*background: var(--ted-red);*/
+}
+
+.content
+{
+	max-width: 960px;
+	margin: auto;
+	background: #ffffff;
+}
+
+.header
+{
+	color: white;
+}
+
+.footer
+{
+	padding: 10px;
+}
+
+#logo
+{
+	width: 500px;
+}
+
+.navbar
+{
+	overflow: hidden;
+	background: var(--ted-red);
+}
+
+.navbar a
+{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	/*font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 16px;
+}
+
+.navbar a:hover
+{
+	background-color: #d3271b;
+}
+
+.navbar a.current
+{
+	/*background-color: #d3271b;*/
+	color: #000000;
+}
+
+div
+{
+	/*background-color: white;*/
+	margin: 10px;
+}
+
+p
+{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 18px;
+	color: #404040;
+}
+
+h1
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 30px;
+	color: var(--ted-red);
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+}
+
+.flex-container
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	/*background-color: var(--ted-red);*/
+	/*padding: 25px;*/
+}

@@ -1,0 +1,20 @@
+
+.collapsible
+{
+	/*padding: 10px;*/
+	cursor: pointer;
+	background-color: white;
+	outline: none;
+	border: none;
+	width: 100%;
+	text-align: left;
+	background-color: #efefef;
+}
+
+.collapsed
+{
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
